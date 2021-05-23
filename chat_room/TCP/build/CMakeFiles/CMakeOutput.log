@@ -1,0 +1,137 @@
+The system is: Windows - 10.0.19042 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine for .NET Framework 15.9.21+g9802d43bc3 版
+Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+
+已經開始建置於 2021/5/24 上午 02:08:27。
+節點 1 (預設目標) 上的專案 "D:\github\my_work\Socket_cpp_practice\chat_room\TCP\build\CMakeFiles\3.19.2\CompilerIdC\CompilerIdC.vcxproj"。
+PrepareForBuild:
+  正在建立目錄 "Debug\"。
+  正在建立目錄 "Debug\CompilerIdC.tlog\"。
+InitializeBuildStatus:
+  由於指定了 "AlwaysCreate"，因此正在建立 "Debug\CompilerIdC.tlog\unsuccessfulbuild"。
+VcpkgTripletSelection:
+  Using triplet "x64-windows" from "D:\vcpkg\scripts\buildsystems\msbuild\..\..\..\installed\x64-windows\"
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\CL.exe /c /I"D:\vcpkg\scripts\buildsystems\msbuild\..\..\..\installed\x64-windows\include" /nologo /W0 /WX- /diagnostics:classic /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\vcpkg\scripts\buildsystems\msbuild\..\..\..\installed\x64-windows\debug\lib" /LIBPATH:"D:\vcpkg\scripts\buildsystems\msbuild\..\..\..\installed\x64-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "D:\vcpkg\scripts\buildsystems\msbuild\..\..\..\installed\x64-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> D:\github\my_work\Socket_cpp_practice\chat_room\TCP\build\CMakeFiles\3.19.2\CompilerIdC\.\CompilerIdC.exe
+AppLocalFromInstalled:
+  pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "D:\github\my_work\Socket_cpp_practice\chat_room\TCP\build\CMakeFiles\3.19.2\CompilerIdC\.\CompilerIdC.exe" "D:\vcpkg\scripts\buildsystems\msbuild\..\..\..\installed\x64-windows\debug\bin" "Debug\CompilerIdC.tlog\CompilerIdC.write.1u.tlog" "Debug\vcpkg.applocal.log"
+  'pwsh.exe' 不是內部或外部命令、可執行的程式或批次檔。
+  "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "D:\github\my_work\Socket_cpp_practice\chat_room\TCP\build\CMakeFiles\3.19.2\CompilerIdC\.\CompilerIdC.exe" "D:\vcpkg\scripts\buildsystems\msbuild\..\..\..\installed\x64-windows\debug\bin" "Debug\CompilerIdC.tlog\CompilerIdC.write.1u.tlog" "Debug\vcpkg.applocal.log"" 命令以返回碼 9009 結束。
+  "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "D:\github\my_work\Socket_cpp_practice\chat_room\TCP\build\CMakeFiles\3.19.2\CompilerIdC\.\CompilerIdC.exe" "D:\vcpkg\scripts\buildsystems\msbuild\..\..\..\installed\x64-windows\debug\bin" "Debug\CompilerIdC.tlog\CompilerIdC.write.1u.tlog" "Debug\vcpkg.applocal.log"
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x64\cl.exe
+FinalizeBuildStatus:
+  正在刪除檔案 "Debug\CompilerIdC.tlog\unsuccessfulbuild"。
+  正在變更時間戳記 "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate"。
+專案 "D:\github\my_work\Socket_cpp_practice\chat_room\TCP\build\CMakeFiles\3.19.2\CompilerIdC\CompilerIdC.vcxproj" (預設目標) 建置完成。
+
+建置成功。
+    0 個警告
+    0 個錯誤
+
+經過時間 00:00:01.56
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "D:/github/my_work/Socket_cpp_practice/chat_room/TCP/build/CMakeFiles/3.19.2/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine for .NET Framework 15.9.21+g9802d43bc3 版
+Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+
+已經開始建置於 2021/5/24 上午 02:08:29。
+節點 1 (預設目標) 上的專案 "D:\github\my_work\Socket_cpp_practice\chat_room\TCP\build\CMakeFiles\3.19.2\CompilerIdCXX\CompilerIdCXX.vcxproj"。
+PrepareForBuild:
+  正在建立目錄 "Debug\"。
+  正在建立目錄 "Debug\CompilerIdCXX.tlog\"。
+InitializeBuildStatus:
+  由於指定了 "AlwaysCreate"，因此正在建立 "Debug\CompilerIdCXX.tlog\unsuccessfulbuild"。
+VcpkgTripletSelection:
+  Using triplet "x64-windows" from "D:\vcpkg\scripts\buildsystems\msbuild\..\..\..\installed\x64-windows\"
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\CL.exe /c /I"D:\vcpkg\scripts\buildsystems\msbuild\..\..\..\installed\x64-windows\include" /nologo /W0 /WX- /diagnostics:classic /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\vcpkg\scripts\buildsystems\msbuild\..\..\..\installed\x64-windows\debug\lib" /LIBPATH:"D:\vcpkg\scripts\buildsystems\msbuild\..\..\..\installed\x64-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "D:\vcpkg\scripts\buildsystems\msbuild\..\..\..\installed\x64-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> D:\github\my_work\Socket_cpp_practice\chat_room\TCP\build\CMakeFiles\3.19.2\CompilerIdCXX\.\CompilerIdCXX.exe
+AppLocalFromInstalled:
+  pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "D:\github\my_work\Socket_cpp_practice\chat_room\TCP\build\CMakeFiles\3.19.2\CompilerIdCXX\.\CompilerIdCXX.exe" "D:\vcpkg\scripts\buildsystems\msbuild\..\..\..\installed\x64-windows\debug\bin" "Debug\CompilerIdCXX.tlog\CompilerIdCXX.write.1u.tlog" "Debug\vcpkg.applocal.log"
+  'pwsh.exe' 不是內部或外部命令、可執行的程式或批次檔。
+  "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "D:\github\my_work\Socket_cpp_practice\chat_room\TCP\build\CMakeFiles\3.19.2\CompilerIdCXX\.\CompilerIdCXX.exe" "D:\vcpkg\scripts\buildsystems\msbuild\..\..\..\installed\x64-windows\debug\bin" "Debug\CompilerIdCXX.tlog\CompilerIdCXX.write.1u.tlog" "Debug\vcpkg.applocal.log"" 命令以返回碼 9009 結束。
+  "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "D:\github\my_work\Socket_cpp_practice\chat_room\TCP\build\CMakeFiles\3.19.2\CompilerIdCXX\.\CompilerIdCXX.exe" "D:\vcpkg\scripts\buildsystems\msbuild\..\..\..\installed\x64-windows\debug\bin" "Debug\CompilerIdCXX.tlog\CompilerIdCXX.write.1u.tlog" "Debug\vcpkg.applocal.log"
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x64\cl.exe
+FinalizeBuildStatus:
+  正在刪除檔案 "Debug\CompilerIdCXX.tlog\unsuccessfulbuild"。
+  正在變更時間戳記 "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate"。
+專案 "D:\github\my_work\Socket_cpp_practice\chat_room\TCP\build\CMakeFiles\3.19.2\CompilerIdCXX\CompilerIdCXX.vcxproj" (預設目標) 建置完成。
+
+建置成功。
+    0 個警告
+    0 個錯誤
+
+經過時間 00:00:01.36
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "D:/github/my_work/Socket_cpp_practice/chat_room/TCP/build/CMakeFiles/3.19.2/CompilerIdCXX/CompilerIdCXX.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/github/my_work/Socket_cpp_practice/chat_room/TCP/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_ebefa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine for .NET Framework 15.9.21+g9802d43bc3 版
+Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27045 for x64
+  Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+  
+  cl /c /I"D:\vcpkg\scripts\buildsystems\msbuild\..\..\..\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ebefa.dir\Debug\\" /Fd"cmTC_ebefa.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c"
+  CMakeCCompilerABI.c
+  
+  cmTC_ebefa.vcxproj -> D:\github\my_work\Socket_cpp_practice\chat_room\TCP\build\CMakeFiles\CMakeTmp\Debug\cmTC_ebefa.exe
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/github/my_work/Socket_cpp_practice/chat_room/TCP/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_602c2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine for .NET Framework 15.9.21+g9802d43bc3 版
+Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27045 for x64
+  Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+  
+  cl /c /I"D:\vcpkg\scripts\buildsystems\msbuild\..\..\..\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_602c2.dir\Debug\\" /Fd"cmTC_602c2.dir\Debug\vc141.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp"
+  CMakeCXXCompilerABI.cpp
+  
+  cmTC_602c2.vcxproj -> D:\github\my_work\Socket_cpp_practice\chat_room\TCP\build\CMakeFiles\CMakeTmp\Debug\cmTC_602c2.exe
+
+
+

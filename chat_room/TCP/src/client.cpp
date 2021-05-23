@@ -2,8 +2,10 @@
 #define _CLIENT_H_
 
 #include <WinSock2.h>
+#include <stdio.h>
 
 #include <iostream>
+#include <string>
 #pragma comment(lib, "ws2_32.lib")
 
 int main() {
@@ -26,7 +28,7 @@ int main() {
   socket_address.sin_family = AF_INET;
   socket_address.sin_addr.s_addr = inet_addr("127.0.0.1");
   socket_address.sin_port = htons(8080);
-  if (connect(client_socket, (SOCKADDR*)&socket_address, len) == SOCKET_ERROR) {
+  if (connect(client_socket, (SOCKADDR *)&socket_address, len) == SOCKET_ERROR) {
     std::cout << "[Error] connect error: " << GetLastError() << std::endl;
     return -1;
   }
@@ -37,12 +39,19 @@ int main() {
   std::cout << buf << std::endl;
 
   //-----隨時送訊息給server-----
+  // char aaa[100]{0};
+  char *aaa = "exit";
+  // sprintf(aaa, "exit", client_socket);
   int ret{0};
   do {
-    char buf2[100]{0};
+    char send_msg[100]{0};
     std::cout << "Please enter chat content: ";
-    std::cin >> buf2;
-    ret = send(client_socket, buf2, 100, 0);
+    std::cin >> send_msg;
+    if (strcmp(send_msg, aaa) == 0) {
+      std::cout << "Client Socket closed" << std::endl;
+      return 0;
+    } else
+      ret = send(client_socket, send_msg, 100, 0);
   } while (ret != SOCKET_ERROR && ret != 0);
 
   //-----close socket-----

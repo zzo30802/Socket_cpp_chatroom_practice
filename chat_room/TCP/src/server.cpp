@@ -6,6 +6,7 @@
 
 #include <cstdio>
 #include <iostream>
+#include <string>
 #include <thread>
 #pragma comment(lib, "ws2_32.lib");  // ws2_32.dll
 
@@ -90,19 +91,22 @@ DWORD WINAPI thread_receive_client_msg(LPVOID p_client_socket) {
   //-----與client通訊-----
   // 傳入void pointer轉成SOCKET指標
   SOCKET client_socket = (SOCKET)p_client_socket;
-  std::cout << "Welcome the chat room." << std::endl;
+  printf("Welcome %d into the cat room.\n", client_socket);
   // 發送數據
   char buf[100]{0};
-  sprintf(buf, "Welcome %d into the cat room.", client_socket);
+  sprintf(buf, "Welcome the chat room.", client_socket);
   send(client_socket, buf, 100, 0);
   // loop接收客戶端數據
   int ret{0};
   do {
-    char buf2[100]{0};
-    ret = recv(client_socket, buf2, 100, 0);
-    std::cout << client_socket << " said: " << std::endl;
+    char recv_msg[100]{0};
+    ret = recv(client_socket, recv_msg, 100, 0);
+
+    if (strcmp(recv_msg, (char*)("")) == 0) {
+    } else
+      std::cout << client_socket << " said: " << recv_msg << std::endl;
   } while (ret != SOCKET_ERROR && ret != 0);
-  std::cout << client_socket << " leaving the chat room." << std::endl;
+  std::cout << client_socket << " Leaving the chat room." << std::endl;
   return 0;
 }
 
