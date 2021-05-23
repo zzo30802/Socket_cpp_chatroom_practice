@@ -75,7 +75,7 @@ int main() {
     SOCKET client_socket = accept(server_socket, (SOCKADDR*)&client_address, &len);
     if (client_socket != INVALID_SOCKET) {
       //-----create thread to receive-----
-      HANDLE thread = CreateThread(NULL, 0, thread_receive_client_msg, (LPVOID)client_socket, 0 NULL);
+      HANDLE thread = CreateThread(NULL, 0, thread_receive_client_msg, (LPVOID)client_socket, 0, NULL);
       CloseHandle(thread);
     }
   }
