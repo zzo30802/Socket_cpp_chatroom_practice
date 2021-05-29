@@ -32,8 +32,8 @@
 *.app
 
 # bash
-UDP/chat_room/build
-!UDP/chat_room/build/*.bat
+chat_room/UDP/build
+!chat_room/UDP/build/*.bat
 
-TCP/chat_room/build
-!TCP/chat_room/build/*.bat
+chat_room/TCP/build
+!chat_room/TCP/build/*.bat
