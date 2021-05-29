@@ -61,6 +61,7 @@ int main() {
   }
 
   //-----listen-----
+  // listen將socket設置為被動監聽類型，等待client發送connect請求
   // IP:對應到一個城市，Port:城市的港口，bind()告訴別人我們住在哪裡，該從哪個港口登陸後，
   // 我們必須反覆去察看客人來了沒有，這個過程就是監聽(listen)，對應到Socket的listen()。
   // int listen(int sockfd, int backlog);
@@ -68,6 +69,7 @@ int main() {
   // backlog : 規定有多少個client可以連入server
   listen(server_socket, 20);
 
+  std::cout << "Listening for incoming connections." << std::endl;
   //-----main thread loop接收client的request-----
   sockaddr_in client_address;
   std::memset(&client_address, 0, len);
@@ -91,7 +93,7 @@ DWORD WINAPI thread_receive_client_msg(LPVOID p_client_socket) {
   //-----與client通訊-----
   // 傳入void pointer轉成SOCKET指標
   SOCKET client_socket = (SOCKET)p_client_socket;
-  printf("Welcome %d into the cat room.\n", client_socket);
+  printf("Welcome %d into the chat room.\n", client_socket);
   // 發送數據
   char buf[100]{0};
   sprintf(buf, "Welcome the chat room.", client_socket);
