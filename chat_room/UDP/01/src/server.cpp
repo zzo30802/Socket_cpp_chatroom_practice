@@ -67,7 +67,11 @@ int main() {
   WSACleanup();
 }
 */
+
 #define BUF_SIZE 100
+
+// DWORD WINAPI thread_receive_client_msg(LPVOID p_client_socket);
+
 int main() {
   // load winsock2 environment
   WSADATA wsa_data;
@@ -104,4 +108,8 @@ int main() {
   WSACleanup();
   return 0;
 }
+
+// DWORD WINAPI thread_receive_client_msg(LPVOID p_client_socket) {
+//     return 0;
+// }
 #endif  // _SERVER_H_
